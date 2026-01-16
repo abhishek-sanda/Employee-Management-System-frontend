@@ -1,7 +1,7 @@
 import axios from 'axios';
 import * as authService from './auth.service';
 
-const API_BASE = import.meta.env.VITE_API_URL || 'https://employee-management-system-backend-ochre.vercel.app';
+const API_BASE = import.meta.env.VITE_API_URL || 'https://employee-management-system-backend-z3fk.onrender.com';
 
 const api = axios.create({
   baseURL: API_BASE,
